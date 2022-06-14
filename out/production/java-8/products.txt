@@ -1,0 +1,6 @@
+Computer,890.50
+Iphone X,550.0
+Tablet,230.0
+Smart TV,2500.3
+Watch,500.19
+Shoes,329.5
