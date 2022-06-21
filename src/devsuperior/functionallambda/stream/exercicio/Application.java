@@ -20,7 +20,7 @@ public class Application {
 
         Locale.setDefault(Locale.US);
 
-        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/products.txt";
+        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/devsuperior/products.txt";
 
         try (var bufferedReader = new BufferedReader(new FileReader(path))) {
             var list = new ArrayList<Product>();

@@ -10,7 +10,7 @@ public class Application {
 
     public static void main(String[] args) {
         var list = new ArrayList<String>();
-        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/in.txt";
+        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/devsuperior/in.txt";
 
         try (var bufferedReader = new BufferedReader(new FileReader(path))) {
             var name = bufferedReader.readLine();

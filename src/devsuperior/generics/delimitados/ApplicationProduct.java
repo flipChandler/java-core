@@ -12,7 +12,7 @@ public class ApplicationProduct {
 
     public static void main(String[] args) {
         var list = new ArrayList<Product>();
-        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/products.txt";
+        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/devsuperior/products.txt";
 
         try (var bufferedReader = new BufferedReader(new FileReader(path))) {
             var line = bufferedReader.readLine();

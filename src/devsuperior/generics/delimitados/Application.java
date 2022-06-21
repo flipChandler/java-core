@@ -11,7 +11,7 @@ public class Application {
 
     public static void main(String[] args) {
         var list = new ArrayList<Integer>();
-        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/values.txt";
+        var path = "/home/felipe/Documents/cursos/dev-superior/ws-java-8/java-8/src/devsuperior/values.txt";
 
         try (var bufferedReader = new BufferedReader(new FileReader(path))) {
             var line = bufferedReader.readLine();
